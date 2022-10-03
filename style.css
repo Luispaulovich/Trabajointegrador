@@ -1,0 +1,284 @@
+
+.navbar-expand-lg.navbar-dark {
+    /*--bs-bg-opacity:1,*/
+    /* background-color:right: (var(--bs-dark-rgb), var(--bs-bg-opacity)) !Important;*/
+background-color: rgb(59, 47, 47) !important;
+
+}
+.navbar-brand-h1 {
+color: var(--gray-200);
+font-size: 1.3rem;
+margin: 0;
+padding: 0;
+}
+.navbar img {
+    width: 150px;
+    margin-right: 1rem;
+        padding: 1rem 0;
+    }
+   
+
+.navbar-navbar-togger
+{
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 00.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+}
+.navbar-darrk .navbar-navbar-togger-icon   {
+
+    background-image: img src="WhatsApp Image 2022-09-30 at 21.19.31.jpeg" alt="Mountain";
+}
+.navbar .navbar-nav {
+
+    text-align: center;
+
+}
+.navbar .navbar-nav a:last-child {
+    color: green;
+}
+
+/*showcase*/
+
+.img  {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  color: var(--gray-200);
+  
+}
+
+  .showcase {
+
+    background-image: <img src="WhatsApp Image 2022-09-30 at 21.19.31.jpeg"
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  color: var(--gray-200);
+}
+
+
+.showcase .shadow {
+    background-color:blanchedalmond (0,0,0,0.6)
+     width: 100%;
+    height: 100%;
+    }
+
+    .showcase .container-flex {
+   width: 80%;
+   height: 100%;
+  margin: 0%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+    }
+
+   .showcase .content  {
+width: 50%;
+margin-bottom: 20vh;
+text-align: right;
+   }
+
+   .showcase .buttonarea{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+
+   }
+
+   .showcase .buttonarea a{
+   color: var(--gray-200);
+   text-decoration: none;
+
+   }
+
+   .showcase .btn {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+   }
+   .showcase .btn-transparent   {
+    border: 1px solid var(--gray-200);
+   }
+
+   .showcase .btn-transparent:hover  {
+ background-color: rgba(255, 255, 255, .55);
+ color: var(--gray-900);
+ border:1px solid rgba(39, 85, 35, 0.55)
+
+
+   }
+
+   .showcase.btn-solid  {
+    background-color: green;
+    border: 1px solid green;
+   }
+
+.showcase.btn-solid:hover {
+
+    background-color: greenyellow;
+    border: 1px solid green;
+    color: var(--gray-200);
+    transition: 00.5s;
+}
+ .speakers .title {
+    text-align: center;
+}
+
+.speakers .title h6  {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    width: 70%;
+
+}
+
+.speakers .container-speakers {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+ .card {
+    width: 30%;
+    min-width: 300px;
+}
+.card img {
+    width: 100%;
+}
+
+/*call to action */
+
+.container-cta {
+    margin-top: 1rem;
+
+}
+.container-cta {
+    display: flex;
+
+}
+
+.container-cta img {
+    width: 60%;
+    margin: 0;
+}
+
+.container-cta .cta-content{
+
+    background-color: rgb(56, 54, 54);
+    color: rgba(250, 237, 237, 0.55);
+    padding: 1rem;
+} 
+
+.container-cta .cta-content h2  {
+    font-weight: 600;
+    }
+.container-cta .btn  {
+    padding: 0.5rem 1 rem;
+    margin: 00.5rem;
+    border-radius: 5px;
+    color: var(--gray-200);
+}
+
+.container-cta .btn-transparent{
+    border: 1px solid var(--gray-200) ;
+}
+
+.container-cta .btn-transparent:hover {
+background-color: rgb(37, 37, 3);
+color: var(--gray-900);
+border: 1px solid rgb(80, 196, 214);
+transition: 0.5s;
+
+}
+
+/*form*/
+
+.form .title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form .title h3  {
+    font-size: 1rem;
+}
+
+.form title .underline  {
+    text-decoration: underline dotted rgb(15, 15, 15);
+}
+
+.form .container-form {
+width: 45vw;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+}
+
+.form .container-form .first-last-name  {
+width: 48%;
+display: flex;
+justify-content: space-between;
+margin-bottom: 1.5rem;
+}
+
+.form .container-form .input-name {
+    width: 48%;
+    padding: 0.7rem 0;
+    border-radius: 5px;
+    border: 1px solid var(--gray-400);
+    
+}
+.form .container-form .input-name:focus {
+outline: 1px solid var(--gray-800);
+
+}
+.form .container-form .btn-submit  {
+    width: 80%;
+    margin: 1rem 0;
+    padding: 0.8rem 0;
+    font-size: 1rem;
+    background-color: rgb(81, 214, 81);
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+
+.form .container-form .btn-submit:hover  {
+background-color: aqua;
+color: var(--gray-400);
+transition: 1s;
+
+}
+
+/*footer*/
+.footer {
+    background-image: linear-gradient(to right, #151b1f, #008793);  }
+  
+  
+    .footer .container-footer {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+           }
+
+           .footer .container-footer a {
+            text-decoration: none;
+            color: rgb(200, 200, 219);
+            padding: 3rem 0;
+            width: 100px;
+            text-align: center;
+
+           }
+.footer .container-footer a:hover  {
+color: aqua;
+
+}
+
